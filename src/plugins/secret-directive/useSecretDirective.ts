@@ -1,9 +1,9 @@
-import { ref, watch } from "vue"
+import { inject, ref, watch } from "vue"
 
 const secretEntered = ref(false)
-const secretQuote = 'secret'; // just hardocde it for now
 const keysEntered = ref<string[]>([]);
 export const useSecretDirective = () => {
+    const secretQuote = inject('custom-secret-quote', 'secret');
 
     const addKeysEntered = (payload: string) => {
         keysEntered.value.push(payload)

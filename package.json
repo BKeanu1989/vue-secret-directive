@@ -1,5 +1,5 @@
 {
-  "name": "secret-directive",
+  "name": "vue3-plugin-secret-directive",
   "private": true,
   "version": "0.0.1",
   "author": {
@@ -7,7 +7,9 @@
     "url": "https://bkeanu1989.github.io",
     "email": "developer.kevinfechner@gmail.com"
   },
-  "exports": {},
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

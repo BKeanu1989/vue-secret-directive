@@ -1,5 +1,5 @@
-import { ref as u, inject as a, watch as i, defineComponent as m, onMounted as _ } from "vue";
-const s = u(!1), n = u([]), v = () => {
+import { ref as u, inject as a, watch as i, defineComponent as _, onMounted as m } from "vue";
+const s = u(!1), n = u([]), f = () => {
   const c = a("custom-secret-quote", "secret"), r = (t) => {
     n.value.push(t);
   }, e = (t) => {
@@ -22,11 +22,11 @@ const s = u(!1), n = u([]), v = () => {
     setSecretEntered: e,
     addKeysEntered: r
   };
-}, f = /* @__PURE__ */ m({
+}, v = /* @__PURE__ */ _({
   __name: "SecretDirective",
   setup(c) {
-    const r = v();
-    return _(() => {
+    const r = f();
+    return m(() => {
       document.addEventListener("keyup", (e) => {
         r.addKeysEntered(e.key);
       });
@@ -36,12 +36,11 @@ const s = u(!1), n = u([]), v = () => {
   mounted(c, r, e) {
     e.el.dataset.vSecret = !0, e.el.style.display = "none";
   }
-}, h = {
+}, E = {
   install(c, r) {
-    c.provide("custom-secret-quote", r.secret || "secret"), c.directive("c-secret", y), c.component("SecretDirective", f);
+    c.provide("custom-secret-quote", r.secret || "secret"), c.directive("c-secret", y), c.component("SecretDirective", v);
   }
 };
 export {
-  f as SecretDirectiveComponent,
-  h as default
+  E as default
 };

@@ -1,7 +1,7 @@
 {
   "name": "vue3-plugin-secret-directive",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Kevin Fechner",
     "url": "https://bkeanu1989.github.io",

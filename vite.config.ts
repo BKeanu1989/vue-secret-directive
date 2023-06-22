@@ -21,7 +21,7 @@ export default defineConfig({
   build: {
     cssCodeSplit: false,
     lib: {
-      entry: './src/plugins/secret-directive/SecretDirective.ts',
+      entry: './src/plugins/secret-directive/index.ts',
       formats: ['es', 'cjs'],
       name: 'SecretDirective',
       fileName: (format) => (format === 'es') ? "index.js" : "index.cjs"

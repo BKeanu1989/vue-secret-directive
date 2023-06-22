@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/BKeanu1989/vue-secret-directive/compare/v0.0.4...v0.0.5) (2023-06-22)
+
+
+### Bug Fixes
+
+* plugin as entryfile ([8c7e720](https://github.com/BKeanu1989/vue-secret-directive/commit/8c7e720c32bfbda4edd08d1dce8337f815f06b15))
+
 ### [0.0.4](https://github.com/BKeanu1989/vue-secret-directive/compare/v0.0.3...v0.0.4) (2023-06-22)
 
 ### 0.0.3 (2023-06-22)

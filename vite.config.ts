@@ -25,7 +25,7 @@ export default defineConfig({
       entry: './src/plugins/secret-directive/SecretDirective.ts',
       // formats: ['es', 'cjs'],
       name: 'SecretDirective',
-      fileName: (format) => `secret-directive${format}.js`
+      fileName: (format) => `secret-directive.${format}.js`
       // fileName: (format) => (format === 'es') ? "index.js" : "index.cjs"
     },
     rollupOptions: {

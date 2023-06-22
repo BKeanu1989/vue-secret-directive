@@ -12,7 +12,7 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/secret-directive.js",
+      "import": "./dist/secret-directive.es.js",
       "require": "./dist/secret-directive.umd.js"
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "vue3-plugin-secret-directive",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Kevin Fechner",
     "url": "https://bkeanu1989.github.io",
@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version && npm publish"
   },
   "dependencies": {
     "vue": "^3.2.47"
@@ -23,6 +24,7 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "rollup": "^3.25.1",
     "rollup-plugin-typescript2": "^0.34.1",
+    "standard-version": "^9.5.0",
     "tslib": "^2.5.3",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",

@@ -22,9 +22,10 @@ export default defineConfig({
     cssCodeSplit: false,
     lib: {
       entry: './src/plugins/secret-directive/index.ts',
-      formats: ['es', 'cjs'],
+      // formats: ['es', 'cjs'],
       name: 'SecretDirective',
-      fileName: (format) => (format === 'es') ? "index.js" : "index.cjs"
+      fileName: (format) => `secret-directive${format}.js`
+      // fileName: (format) => (format === 'es') ? "index.js" : "index.cjs"
     },
     rollupOptions: {
       external: ['vue'],

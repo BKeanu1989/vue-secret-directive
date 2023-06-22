@@ -7,8 +7,14 @@
     "url": "https://bkeanu1989.github.io",
     "email": "developer.kevinfechner@gmail.com"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
-    ".": "./dist/index.js"
+    ".": {
+      "import": "./dist/secret-directive.es.js",
+      "require": "./dist/secret-directive.umd.js"
+    }
   },
   "type": "module",
   "scripts": {

@@ -9,7 +9,7 @@ const vuePressPlugin = (options: PluginOptions) => {
         return {
             name: 'vue3-secret-directive',
             onInitialized: (app: App) => {
-                app.provide('custom-secret-quote', options.secret || 'secret');
+                app.provide('custom-secret-quote', options.secret ?? 'secret');
                 app.directive('c-secret', customSecretDirective)
                 app.component('SecretDirective', secretDirective)
 

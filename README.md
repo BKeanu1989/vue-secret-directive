@@ -68,3 +68,15 @@ https://vitejs.dev/guide/build.html
   }
 }
 ```
+
+---
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './dist/secret-directive-vuepress.es.js' is not defined by "exports" in D:\Projects\bkeanu1989.github.io\node_modules\vue3-plugin-secret-directive\package.json imported from D:\Projects\bkeanu1989.github.io\docs\.vuepress\config.ts.628f480e.mjs
+
+
+-> use path of exports aka /secondary
+
+
+---
+TypeError: Cannot read properties of undefined (reading 'secret')
+    at Object.onInitialized [as hook] (file:///D:/Projects/bkeanu1989.github.io/node_modules/.pnpm/vue3-plugin-secret-directive@0.0.10/node_modules/vue3-plugin-secret-directive/dist/secret-directive-vuepress.es.js:42:40)

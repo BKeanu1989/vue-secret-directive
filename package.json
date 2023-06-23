@@ -15,7 +15,7 @@
       "import": "./dist/secret-directive.es.js",
       "require": "./dist/secret-directive.umd.js"
     },
-    "/secondary": {
+    "./secondary": {
       "import": "./dist/secret-directive-vuepress.es.js",
       "require": "./dist/secret-directive-vuepress.umd.js"
     }

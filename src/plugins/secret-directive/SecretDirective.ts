@@ -1,10 +1,8 @@
 import type { App, Plugin } from 'vue';
 import secretDirective from './SecretDirective.vue';
 import customSecretDirective from './custom-secret-directive';
+import { PluginOptions } from '../../types';
 
-type PluginOptions = {
-    secret: string
-}
 
 const secretDirectivePlugin: Plugin = {
     install(app: App, options: PluginOptions) {

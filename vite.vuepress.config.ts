@@ -19,14 +19,14 @@ export default defineConfig({
     }),
   ],
   build: {
-    emptyOutDir: false,
     cssCodeSplit: false,
+    emptyOutDir: false,
     lib: {
       // entry: './src/plugins/secret-directive/index.ts',
-      entry: './src/plugins/secret-directive/SecretDirective.ts',
+      entry: './src/plugins/secret-directive/secretDirectiveVuePress.ts',
       // formats: ['es', 'cjs'],
-      name: 'SecretDirective',
-      fileName: (format) => `secret-directive.${format}.js`
+      name: 'SecretDirectiveVuepress',
+      fileName: (format) => `secret-directive-vuepress.${format}.js`
       // fileName: (format) => (format === 'es') ? "index.js" : "index.cjs"
     },
     rollupOptions: {

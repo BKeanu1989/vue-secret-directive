@@ -14,12 +14,17 @@
     ".": {
       "import": "./dist/secret-directive.es.js",
       "require": "./dist/secret-directive.umd.js"
+    },
+    "/secondary": {
+      "import": "./dist/secret-directive-vuepress.es.js",
+      "require": "./dist/secret-directive-vuepress.umd.js"
     }
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "build-vuepress": "vue-tsc && vite build --config vite.vuepress.config.ts",
     "preview": "vite preview",
     "release": "standard-version && git push --follow-tags origin master && npm publish"
   },

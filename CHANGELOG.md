@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/BKeanu1989/vue-secret-directive/compare/v0.0.9...v0.0.10) (2023-06-23)
+
+
+### Bug Fixes
+
+* exports prefix with . ([b9a4473](https://github.com/BKeanu1989/vue-secret-directive/commit/b9a447356e641a1f6338e6545344dc0e34ac5989))
+
 ### [0.0.9](https://github.com/BKeanu1989/vue-secret-directive/compare/v0.0.8...v0.0.9) (2023-06-23)
 
 ### [0.0.8](https://github.com/BKeanu1989/vue-secret-directive/compare/v0.0.7...v0.0.8) (2023-06-22)
